@@ -12,6 +12,9 @@ app.get('/', (req, res) => {
 app.get('/twitter', (req, res) => {
   res.send('ankitdotcom')
 })
+app.get('/github', (req, res) => {
+  res.json({"name":"Ankit Panda"})
+})
 
 app.get('/login', (req, res) => {
   res.send('<h1>please login at chai aur code</h1>')
